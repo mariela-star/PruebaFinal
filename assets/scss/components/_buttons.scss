@@ -1,0 +1,26 @@
+.button {
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $raising-black;
+}
+
+.class {
+    padding: 6px 8px;
+    border-radius: 3px;
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $white;
+}
+
+.class_positive {
+    background-color: $ball-blue;
+    border: 1px solid $ball-blue;
+
+    &:hover {
+        background-color: $middle-blue;
+        background-color: $lavender-gray;
+        color: $white;
+    }
+}

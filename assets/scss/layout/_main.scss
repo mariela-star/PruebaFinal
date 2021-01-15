@@ -1,0 +1,18 @@
+.principal__texto {
+    font-family: $raleway;
+    text-align: left;
+    padding: 50px;
+
+    h1 {
+        font-size: $x-large;
+        font-weight: $bold;
+    }
+
+    p {
+        font-size: $medium;
+        font-weight: $regular;
+        text-align: left;
+        padding-top: 20px;
+        padding-right: 76%;
+    }
+}
