@@ -1,18 +1,34 @@
+.principal * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+.principal {
+    position: relative;
+}
+
 .principal__texto {
     font-family: $raleway;
     text-align: left;
-    padding: 50px;
+    margin: 20px 30px;
+    padding: 1.875rem 3.125rem;
 
-    h1 {
+    &__h1 {
         font-size: $x-large;
         font-weight: $bold;
     }
 
-    p {
+    &__p {
         font-size: $medium;
         font-weight: $regular;
         text-align: left;
-        padding-top: 20px;
-        padding-right: 76%;
     }
+}
+
+.principal__img {
+    
+    left: 0;
+    top: 0;
+    
 }

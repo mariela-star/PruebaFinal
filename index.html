@@ -34,20 +34,26 @@
       </div>
     </nav>
 
+
       <!--Cuerpo-->
     <main class="principal">
-      <div class="principal__texto">
-        <h1>Haz Trekking sin <br> Parar</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto animi corrupti inventore consequuntur, consectetur adipisicing elit. </p>
-      </div>
-      <div class="principal__img">
-        <img src="assets/img/bg-hero.svg" alt="header">
-      </div>
+     <div class="principal__contenedor">
+        <div class="principal__texto">
+          <h1>Haz Trekking sin <br> Parar</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto animi corrupti inventore consequuntur, consectetur adipisicing elit. </p>
+        </div>
+        <div class="principal__img">
+          <img src="assets/img/bg-hero.svg" alt="header">
+        </div>
+     </div>
     </main>
+
 
      <!--Caracteristicas y grafico-->
     <section class="caracteristicas">
-      <h2>Características</h2>
+      <div class="caracteristicas__h2">
+        <h2>Características</h2>
+      </div>
       <div class="caracteristicas__estadisticas">
         <div class="caracteristicas__estadisticas__graphic">
           <img class="graphic_img" src="assets/img/bar-graph.svg" />
@@ -67,12 +73,46 @@
   
     <section class="precios">
       <div class="container">
+        <div>
+          <h2>Precios</h2>
+        </div>
+
         <div class="row">
-          <div class="col-12 col-lg-6">1</div>
-          <div class="col-12 col-lg-6">2</div>
+          <div class="col-12 col-lg-6">
+             <h3>Trekk-in Free</h3>
+             <p>$0/mes</p>
+             <ul>
+               <li>Ver mapas creado por usuarios</li>
+               <li>Conectar con otros usuarios</li>
+             </ul>
+
+             <button>Obtén Free</button>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <h3>Trekk-in Free</h3>
+             <p>$3500/mes</p>
+             <ul>
+               <li>Ver mapas creado por usuarios</li>
+               <li>Conectar con otros usuarios</li>
+               <li>Definir mejores rutas</li>
+               <li>Mapas Offline</li>
+               <li>integración con otras aplicaciones</li>
+             </ul>
+
+             <button>Obtén Premium</button>
+          </div>
         </div>
       </div>
     </section>
-    <footer class="copyright"></footer>
+
+
+    <footer class="copyright">
+      <div class="copyright__conte">
+        <p class="copyright__texto">Legal  Cookies  Sobre anuncios  
+          &copy; 2018 Trekk-in SPA.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

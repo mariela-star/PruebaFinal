@@ -5,11 +5,15 @@
 }
 
 .caracteristicas {
-  padding: 3.125rem 0;
+  margin-top: 4.375rem;
+}
+
+.caracteristicas {
+  margin: 5.625rem 0;
 
   h2 {
     text-align: center;
-    margin-bottom: 4.375rem;
+    margin-top: 20px;
   }
 
   &__estadisticas {
@@ -24,25 +28,6 @@
   }
 }
 
-.caracteristicas2 {
-  padding: 3.125rem 0;
-
-  h2 {
-    text-align: center;
-    margin-bottom: 4.375rem;
-  }
-
-  &__estadisticas {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    & > * {
-      width: 40%;
-      height: 12.5rem;
-    }
-  }
-}
 
 @keyframes grande_pequeno {
   0% {
