@@ -1,5 +1,17 @@
-.container {
-    &__img {
-        z-index: -1;
-    }
+.precios__container {
+    position: relative;
+}
+
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.precios__titulo, .row {
+    z-index: 100;
+    position: absolute;
+    color: $white;
+    top: 150px;
+    left: 150px;
 }
