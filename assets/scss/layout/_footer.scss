@@ -1,21 +1,18 @@
-footer {
-    background-color: $raising-black;
-    height: 90px;
-}
-
 .copyright__conte {
+    background-color: $raising-black;
     font-family: $open-sans;
     font-size: $large;
     font-weight: $regular;
     color: $white;
-    margin-top: 25px;
-
-    &__.copyright__c {
-        text-align: right;
-        font-family: $open-sans;
-        font-size: $large;
-        font-weight: $regular;
-        color: $white
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    & ul {
+        display: flex;
+        list-style: none;
+    }
+    & ul li p {
+        margin: 20px;
     }
 }
 
@@ -25,7 +22,22 @@ footer {
     padding-right: 3px;
 }
 
-.situar {
-    text-align: right;
-    margin-left: 100px;
+@media (max-width: 768px) {
+    .contenedor__conte {
+        background-color: $raising-black;
+        width: 100%;
+        color: $white;
+        display: inline;
+        justify-content: space-between;
+        padding: 1.5rem 1.5rem;
+        text-align: center;
+        & ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+        & p {
+            text-align: center;
+        }
+    }
 }

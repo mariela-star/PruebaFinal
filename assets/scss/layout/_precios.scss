@@ -1,17 +1,50 @@
-.precios__container {
-    position: relative;
+.centrado {
+    text-align: center;
+    margin-left: 40px;
 }
 
-#img {
+.precios {
+    background-image: url('../../assets/img/bg-price.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110%;
+    h2 {
+        color: $white;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    &__container {
+        margin: 230px auto 30px;
+    }
+}
+
+.precios__container {
+    position: relative;
+    display: inline-block;
+}
+
+.img {
     position: absolute;
     top: 0;
     left: 0;
 }
 
 .precios__titulo, .row {
-    z-index: 100;
     position: absolute;
     color: $white;
     top: 150px;
     left: 150px;
+}
+
+@media (max-width: 768px) {
+    .precios {
+        &__row {
+            display: grid;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }

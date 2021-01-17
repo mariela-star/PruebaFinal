@@ -34,3 +34,17 @@ p {
     left: 0;
     top: 0;
 }
+
+@media (max-width: 992px) {
+    .principal__contenedor {
+        height: 77vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: bottom;
+        margin-top: 10%;
+        &--textos {
+            width: 80%;
+        }
+    }
+}

@@ -51,21 +51,32 @@
   max-width: 100%;
 }
 
-.bar-graph {
-  fill: #000000;
-  animation-name: barras;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+
+@media (max-width: 991px) {
+  .content-carat{
+      &__estadis{
+          p{
+              padding: 0px 10px 0 0;
+          }
+      }
+  }
 }
 
-@keyframes barras {
-  0% {
-    fill: #000000;
+@media (max-width: 767px) {
+  .caracteristicas__estadisticas{
+      display: inherit;
+      padding: 0 10px 0 0;
+      &__caracteristicas__estadisticas__graphic svg{
+          width: 270px;
+      }
+      &__caracteristicas__estadisticas__text{
+          width: 100%;
+          p{
+              padding: 0;
+          }
+      }
   }
-  50% {
-    fill: #ffffff;
-  }
-  100% {
-    fill: #000000;
+  .aracteristicas__h2{
+      text-align: initial;
   }
 }

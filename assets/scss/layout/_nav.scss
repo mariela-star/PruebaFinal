@@ -8,8 +8,32 @@
     list-style: none;
 }
 
-.separador {
+.separador1,
+.separador2,
+.separador3 {
     display: inline;
     padding: 3px;
     padding-right: 3px;
+}
+
+@media (max-width: 992px) {
+    .separador1,
+    .separador2,
+    .separador3,
+    .button,
+    .class_positive {
+        display: none;
+    }
+    .button-burguer {
+        display: flex;
+        justify-content: space-around;
+        font-size: $x-large;
+    }
+}
+
+@media (min-width: 992px) {
+    .button-burguer {
+        display: none;
+        background-color: none;
+    }
 }

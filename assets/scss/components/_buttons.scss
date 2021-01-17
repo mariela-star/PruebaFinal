@@ -3,6 +3,8 @@
     font-size: $small;
     font-weight: $regular;
     color: $raising-black;
+    border: none;
+    background-color: $white;
 }
 
 .class {
@@ -21,6 +23,26 @@
     &:hover {
         background-color: $middle-blue;
         background-color: $lavender-gray;
+        color: $white;
+    }
+}
+
+.btn-premium {
+    padding: 6px 8px;
+    border-radius: 3px;
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $white;
+}
+
+.btn-premium {
+    background-color: $ball-blue;
+    border: 1px solid $ball-blue;
+
+    &:hover {
+        background-color: $middle-blue;
+        background-color: $blue-lagoon;
         color: $white;
     }
 }
